@@ -1,0 +1,16 @@
+# Environnement Python
+venv/
+__pycache__/
+*.pyc
+
+# Fichiers système
+.DS_Store
+
+# Fichiers générés
+*.log
+*.sqlite
+*.db
+
+# Fichiers sensibles
+.env
+config.local.py

@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Quick Test",
+      "type": "python",
+      "request": "launch",
+      "module": "tests.quick_test",
+      "justMyCode": true
+    },
+    {
+      "name": "Run Main App",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "justMyCode": true
+    }
+  ]
+}
